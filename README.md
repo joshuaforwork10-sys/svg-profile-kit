@@ -1,4 +1,16 @@
-# svg-profile-kit
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/banner-dark.svg">
+  <img alt="svg-profile-kit: animated light and dark SVG cards for a GitHub profile README, generated from one profile.json." src=".github/banner-light.svg" width="100%">
+</picture>
+
+<p>
+  <a href="https://github.com/joshuaforwork10-sys/svg-profile-kit/actions/workflows/tests.yml"><img alt="tests" src="https://github.com/joshuaforwork10-sys/svg-profile-kit/actions/workflows/tests.yml/badge.svg"></a>
+  <img alt="Python 3.10 to 3.13" src="https://img.shields.io/badge/python-3.10%20%E2%80%93%203.13-2457E6">
+  <img alt="Zero runtime dependencies" src="https://img.shields.io/badge/dependencies-zero-047857">
+  <img alt="MIT license" src="https://img.shields.io/badge/license-MIT-475569">
+</p>
+
+<h1 align="left">svg-profile-kit</h1>
 
 A small Python generator that turns one `profile.json` into animated SVG cards for a GitHub profile README, each written in a light and a dark version.
 
@@ -22,7 +34,7 @@ flowchart LR
 
 ## Quickstart
 
-Python 3.9+ and nothing else. `pytest` only for the tests.
+Python 3.10+ and nothing else. `pytest` only for the tests.
 
 ```bash
 git clone https://github.com/joshuaforwork10-sys/svg-profile-kit && cd svg-profile-kit
