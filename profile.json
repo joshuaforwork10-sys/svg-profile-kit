@@ -1,0 +1,43 @@
+{
+  "name": "Alex Rivera",
+  "title_lines": ["Revenue Operations", "{and} GTM Engineer"],
+  "tagline": ["I turn a pile of sales tools into one system", "that tells each rep what to do next, and why."],
+  "ticker": [
+    "Lead to first touch: 2 days to 9 minutes",
+    "Forecast built from data, not gut feel",
+    "Every account scored before the stand-up",
+    "One record per company, across every tool"
+  ],
+  "flow": {
+    "inputs": ["CRM", "Billing", "Product", "Support"],
+    "hub": ["Daily", "score"],
+    "output": ["Rep brief", "by 8 am"]
+  },
+  "pillars": [
+    {"icon": "db", "title": "Clean data", "text": "One record per company. Dedupe, enrich and keep it that way with rules that run every night."},
+    {"icon": "signal", "title": "Signals", "text": "Product usage, email and web activity scored with decay, so old noise drops off."},
+    {"icon": "send", "title": "Routing", "text": "Inbound leads reach the right owner in minutes, with guards for live deals and opt-outs."},
+    {"icon": "chart", "title": "Forecast", "text": "Stage gates with entry and exit rules, so the pipeline number means something."},
+    {"icon": "spark", "title": "Automation", "text": "Scripts and agents that do the busywork, each one tested read-only first."}
+  ],
+  "metrics": [
+    {"label": ["Inbound lead to", "first rep touch"], "before": "2 days", "after": "9 min", "before_value": 2880, "after_value": 9},
+    {"label": ["Duplicate company", "records"], "before": "18%", "after": "0.4%", "before_value": 18, "after_value": 0.4},
+    {"label": ["Forecast accuracy", "at week 6"], "before": "61%", "after": "92%", "before_value": 61, "after_value": 92},
+    {"label": ["Tools a rep checks", "each morning"], "before": "5 tools", "after": "1 brief", "before_value": 5, "after_value": 1}
+  ],
+  "work": [
+    {"title": "Signal scoring", "text": "Nightly account scores with decay and a plain-English reason for each one.", "metric": "5 feeds, 1 brief"},
+    {"title": "Lead router", "text": "Domain and name matching, deal-owner guards and SLA timers for every inbound lead.", "metric": "2 days to 9 min"},
+    {"title": "Record cleanup", "text": "Rules-first dedupe across every tool, with a backup before each merge.", "metric": "18% to 0.4% dupes"},
+    {"title": "Forecast model", "text": "Stage gates and weighted pipeline rebuilt so the commit number holds up.", "metric": "92% accurate"},
+    {"title": "Rep brief", "text": "A morning email per rep: who to call, the signal behind it, the last touch.", "metric": "Daily"},
+    {"title": "Profile kit", "text": "The generator that drew every card on this page, light and dark.", "metric": "Open source"}
+  ],
+  "stack": [
+    {"group": "CRM and outbound", "items": ["Salesforce", "HubSpot", "Outreach", "Salesloft", "Gong", "Clearbit"]},
+    {"group": "Data", "items": ["Python", "SQL", "Postgres", "dbt", "Snowflake", "BigQuery", "Airbyte"]},
+    {"group": "Automation", "items": ["n8n", "Zapier", "GitHub Actions", "Cron", "REST APIs", "Webhooks"]},
+    {"group": "Analytics", "items": ["Looker", "Metabase", "PostHog", "Google Analytics", "Segment"]}
+  ]
+}
